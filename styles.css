@@ -1,0 +1,146 @@
+h1{
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000080;
+}
+
+img{
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+}
+
+.images-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-three{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-four{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-five{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  border: 3px solid navy;
+}
+
+section{
+  border: 3px solid navy;
+}
+
+.do-ac{
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  margin: 12px;
+  align-items: center;
+}
+
+.do-ac1{
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  margin: 12px;
+  align-items: center;
+}
+
+.do-ac2{
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  margin: 12px;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px){
+  .do-ac1{
+    height: 0%;
+    width: 0%;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  .do-ac2{
+    height: 0%;
+    width: 0%;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  .do-ac{
+   justify-content: center;
+   flex-direction: column;
+  }
+  }
+
+
+@media screen and (max-width: 900px){
+  .images-one{
+   justify-content: center;
+   flex-direction: column;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  .images-two{
+   justify-content: center;
+   flex-direction: column;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  .images-three{
+   justify-content: center;
+   flex-direction: column;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  .images-four{
+   justify-content: center;
+   flex-direction: column;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  .images-four{
+   justify-content: center;
+   flex-direction: column;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  .images-five{
+   justify-content: center;
+   flex-direction: column;
+  }
+  }
